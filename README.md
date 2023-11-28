@@ -1,5 +1,21 @@
 # swope-analysis
 Scripts to run Bill Swope's conformer energy analysis
+```
+NC Number of QM conformers 
+NM Number of QM matches with any of the MM structures
+NO Number of QM orphans: QM structures that don’t match with any MM struc. within a threshold
+EO 10*(num orph)/(num conf): maximum # of confs is 10, might be an equalization metric for # of orphans
+PC Num cases match .ne. p-c: Cases where the QM has a close match to a different MM struc (not a parent-child)
+LQ 1 if lowest QM is orphan: If the low energy QM does not have any MM matches
+LF 1 of lowest FF is orphan: If the MM minima does not correspond to any QM
+BF Num FF strucs below ref: Number of FF structures below the reference FF struc that matches to the QM minima
+MO FF strucs out of order: number of FF structures out of order rel to QM order
+BE Num small dE large ddE: number of cases where ddE is large but dE is small
+QS Num 2Q:1F matches: Cases where more than one QM matches to a single FF struc
+FS Num 1Q:2F matches: Cases where more than one FF matches to a single QM struc
+SC 0-99 score: (# of QM matches - # of flagged cases with BE)/total_qm_conf, higher the better
+NL 0-99 score lowE passes: how many have |ddE|<2 among low energy confs (|dE|<4), higher the better 
+```
 
 # File manifest
  create_inputs_for_swope_analysis.py - takes in the QM and MM files (both ordered the same, n^{th} molecule in each are the same)
