@@ -1,0 +1,1065 @@
+Using RMSD files in directory 
+Threshold for RMSD to be considered a match       0.40
+Threshold for relative energy for a conformer to be consideded low energy       4.00
+Threshold for ddE to be considered to be a successful dE value       2.00
+
+Compound    1: BRI-01356
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-01356-00.sdf Energy    -692658.6248
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-01356-01.sdf Energy    -692650.7410
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-01356-02.sdf Energy    -692654.2711
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-01356-03.sdf Energy    -692659.4460
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-01356-04.sdf Energy    -692660.9648
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-01356-05.sdf Energy    -692655.8806
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-01356-06.sdf Energy    -692652.5846
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-01356-07.sdf Energy    -692649.4642
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-01356-08.sdf Energy    -692661.1828
+QM conf 10 icindex  9 File ./b3lyp-d3bj_dzvp/BRI-01356-09.sdf Energy    -692657.1079
+FF conf  1 icindex  0 File ./MM-geometries/BRI-01356-00.sdf Energy       -100.5578
+FF conf  2 icindex  1 File ./MM-geometries/BRI-01356-01.sdf Energy        -90.3586
+FF conf  3 icindex  2 File ./MM-geometries/BRI-01356-02.sdf Energy       -101.4183
+FF conf  4 icindex  3 File ./MM-geometries/BRI-01356-03.sdf Energy       -100.9488
+FF conf  5 icindex  4 File ./MM-geometries/BRI-01356-04.sdf Energy       -101.0699
+FF conf  6 icindex  5 File ./MM-geometries/BRI-01356-05.sdf Energy        -97.6556
+FF conf  7 icindex  6 File ./MM-geometries/BRI-01356-06.sdf Energy       -100.5577
+FF conf  8 icindex  7 File ./MM-geometries/BRI-01356-07.sdf Energy        -98.2579
+FF conf  9 icindex  8 File ./MM-geometries/BRI-01356-08.sdf Energy       -106.8952
+FF conf 10 icindex  9 File ./MM-geometries/BRI-01356-09.sdf Energy        -98.1839
+
+RMSD Matrix 
+  1.2611  1.6669  2.6417  2.0919  2.5838  2.2260  2.1654  2.5635  1.9692  2.5115
+  1.7847  0.4641  2.9993  2.2668  2.6828  2.1012  2.3780  2.2533  2.1045  2.3080
+  1.9089  1.8776  2.4646  2.1523  2.2716  2.2663  1.7910  1.8863  2.6795  1.8137
+  1.8216  2.2517  2.6467  0.2185  2.4239  1.4321  1.4460  2.0105  1.7368  1.9705
+  2.2249  2.6109  1.7611  2.4537  0.2664  2.6109  2.6355  2.7406  2.6347  2.5874
+  2.0830  2.0565  2.9645  1.4389  2.4693  0.2734  1.8897  2.3579  2.0159  2.2695
+  2.3282  2.3231  2.2891  2.3772  2.3600  2.1263  2.0936  2.1528  2.3989  2.2676
+  2.2446  1.7934  2.8153  2.0223  2.9579  1.9096  2.1822  2.1077  1.8616  2.1374
+  1.8895  1.9988  3.0939  1.9462  2.5665  1.7347  2.0731  2.1217  2.1492  2.1938
+  2.2066  2.2920  2.1371  1.9773  2.5535  2.3348  1.8078  0.7149  2.3622  0.2157
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 is an orphan
+QM conf 2 is an orphan
+QM conf 3 matches FF conf 3
+QM conf 4 matches FF conf 4
+QM conf 5 matches FF conf 5
+QM conf 6 is an orphan
+QM conf 7 is an orphan
+QM conf 8 is an orphan
+QM conf 9 matches FF conf 9
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 is an orphan
+FF conf 2 is an orphan
+FF conf 3 matches QM conf 3
+FF conf 4 matches QM conf 4
+FF conf 5 matches QM conf 5
+FF conf 6 is an orphan
+FF conf 7 is an orphan
+FF conf 8 is an orphan
+FF conf 9 matches QM conf 9
+
+QM matches/orphans/conformers    4  6 10 ; FF matches/orphans/conformers    4  6 10
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          8 ; E(QM)     -692661.182792
+Lowest energy FF conformer is          8 ; E(FF)        -106.895161
+Lowest energy matched QM confomers is  4 ; E(QM)     -692660.964808
+Lowest energy matched FF conformer is  4 ; E(FF)        -101.069934
+QM reference energy from conformer     4 ; E(QM)     -692660.964808
+FF reference energy from conformer     4 ; E(FF)        -101.069934
+
+Relative energy ordered by dE(QM)
+00001  BRI-01356 QM Conf 5 dE(QM)      5.084 matches FF Conf 5 dE(FF)      3.414 ddE     -1.670
+00001  BRI-01356 QM Conf 9 dE(QM)      3.857 matches FF Conf 9 dE(FF)      2.886 ddE     -0.971
+00001  BRI-01356 QM Conf 3 dE(QM)      1.519 matches FF Conf 3 dE(FF)      0.121 ddE     -1.398
+00001  BRI-01356 QM Conf 4 dE(QM)      0.000 matches FF Conf 4 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  4 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  4 (|ddE|.le. 2.00)
+Low energy pass score   4  4 99.00
+
+Number of misordered FF conformers:           0
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers         10
+NM Num QM matches             4
+NO Num QM orphans             6
+EO 10*(num orph)/(num conf)   6
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   1
+LF 1 of lowest FF is orphan   1
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                40
+NL 0-99 score lowE passes    99
+00001  BRI-01356 MD  0 NC 10 NM  4 NO  6 EO  6 PC  0 LQ  1 LF  1 BF  0 MO  0 BE  0 QS  0 FS  0 SC 40 NL 99
+
+Compound    2: BRI-01068
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-01068-00.sdf Energy    -660914.4050
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-01068-01.sdf Energy    -660908.6133
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-01068-02.sdf Energy    -660915.6304
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-01068-03.sdf Energy    -660914.5824
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-01068-04.sdf Energy    -660907.7471
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-01068-05.sdf Energy    -660912.0010
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-01068-06.sdf Energy    -660912.5714
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-01068-07.sdf Energy    -660914.5869
+FF conf  1 icindex  0 File ./MM-geometries/BRI-01068-00.sdf Energy        -11.5204
+FF conf  2 icindex  1 File ./MM-geometries/BRI-01068-01.sdf Energy         -8.1561
+FF conf  3 icindex  2 File ./MM-geometries/BRI-01068-02.sdf Energy        -12.5512
+FF conf  4 icindex  3 File ./MM-geometries/BRI-01068-03.sdf Energy        -11.7122
+FF conf  5 icindex  4 File ./MM-geometries/BRI-01068-04.sdf Energy         -5.1065
+FF conf  6 icindex  5 File ./MM-geometries/BRI-01068-05.sdf Energy         -9.3716
+FF conf  7 icindex  6 File ./MM-geometries/BRI-01068-06.sdf Energy        -11.2654
+FF conf  8 icindex  7 File ./MM-geometries/BRI-01068-07.sdf Energy        -12.3329
+
+RMSD Matrix 
+  0.3462  2.3233  2.3461  2.3739  2.2339  2.6856  2.9130  2.5805
+  2.3096  0.4160  2.7975  2.8611  2.0543  2.9388  1.9668  2.1096
+  2.4029  2.7433  0.2937  1.6752  3.0654  2.5587  2.5030  2.5711
+  2.4826  2.8668  1.6400  0.2725  2.7640  2.3261  2.9395  2.4773
+  2.0940  2.0741  3.0270  2.7685  0.3641  2.4134  2.0166  2.7368
+  2.3042  2.7359  2.4825  2.4461  2.5060  1.3054  2.5695  2.4338
+  2.8066  2.0596  2.6029  2.8950  2.1452  2.5206  0.4527  2.3238
+  2.5253  2.0382  2.5393  2.3416  2.7604  2.6216  2.3857  0.4238
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 is an orphan
+QM conf 2 matches FF conf 2
+QM conf 3 matches FF conf 3
+QM conf 4 matches FF conf 4
+QM conf 5 is an orphan
+QM conf 6 is an orphan
+QM conf 7 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 is an orphan
+FF conf 2 matches QM conf 2
+FF conf 3 matches QM conf 3
+FF conf 4 matches QM conf 4
+FF conf 5 is an orphan
+FF conf 6 is an orphan
+FF conf 7 is an orphan
+
+QM matches/orphans/conformers    4  4  8 ; FF matches/orphans/conformers    4  4  8
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          2 ; E(QM)     -660915.630367
+Lowest energy FF conformer is          2 ; E(FF)         -12.551246
+Lowest energy matched QM confomers is  2 ; E(QM)     -660915.630367
+Lowest energy matched FF conformer is  2 ; E(FF)         -12.551246
+QM reference energy from conformer     2 ; E(QM)     -660915.630367
+FF reference energy from conformer     2 ; E(FF)         -12.551246
+
+Relative energy ordered by dE(QM)
+00002  BRI-01068 QM Conf 4 dE(QM)      7.883 matches FF Conf 4 dE(FF)      7.445 ddE     -0.439
+00002  BRI-01068 QM Conf 0 dE(QM)      1.225 matches FF Conf 0 dE(FF)      1.031 ddE     -0.194
+00002  BRI-01068 QM Conf 3 dE(QM)      1.048 matches FF Conf 3 dE(FF)      0.839 ddE     -0.209
+00002  BRI-01068 QM Conf 2 dE(QM)      0.000 matches FF Conf 2 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  3 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  3 (|ddE|.le. 2.00)
+Low energy pass score   3  3 99.00
+
+Number of misordered FF conformers:           0
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers          8
+NM Num QM matches             4
+NO Num QM orphans             4
+EO 10*(num orph)/(num conf)   5
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                50
+NL 0-99 score lowE passes    99
+00002  BRI-01068 MD  0 NC  8 NM  4 NO  4 EO  5 PC  0 LQ  0 LF  0 BF  0 MO  0 BE  0 QS  0 FS  0 SC 50 NL 99
+
+Compound    3: BRI-00226
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00226-00.sdf Energy    -876925.1742
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00226-01.sdf Energy    -876919.5395
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00226-02.sdf Energy    -876925.7341
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00226-03.sdf Energy    -876918.8027
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00226-04.sdf Energy    -876921.5488
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00226-05.sdf Energy    -876928.7904
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00226-06.sdf Energy    -876932.6153
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-00226-07.sdf Energy    -876924.5733
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-00226-08.sdf Energy    -876924.4332
+QM conf 10 icindex  9 File ./b3lyp-d3bj_dzvp/BRI-00226-09.sdf Energy    -876928.1351
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00226-00.sdf Energy        -20.7397
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00226-01.sdf Energy        -17.8195
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00226-02.sdf Energy        -23.3819
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00226-03.sdf Energy        -16.5923
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00226-04.sdf Energy        -20.4094
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00226-05.sdf Energy        -25.2567
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00226-06.sdf Energy        -26.0491
+FF conf  8 icindex  7 File ./MM-geometries/BRI-00226-07.sdf Energy        -21.2190
+FF conf  9 icindex  8 File ./MM-geometries/BRI-00226-08.sdf Energy        -23.5749
+FF conf 10 icindex  9 File ./MM-geometries/BRI-00226-09.sdf Energy        -22.4649
+
+RMSD Matrix 
+  0.3495  2.8950  3.2546  1.9296  3.0492  2.9313  2.4719  2.0280  3.1429  2.6807
+  2.7242  0.5046  2.7403  2.9477  3.1019  2.5942  2.4285  2.5928  1.7984  1.7450
+  3.6071  2.9371  1.6351  3.5865  2.7319  3.0268  3.7307  3.3179  2.3986  2.9776
+  2.0628  2.5952  2.9066  0.7693  2.5352  2.3776  2.2731  2.3633  2.9800  2.6404
+  2.7698  2.7578  2.7183  2.2747  1.7736  2.6708  2.2639  2.9288  2.7298  2.6815
+  3.1681  2.4472  1.8329  2.6099  2.2646  1.3402  3.1993  3.2096  2.1014  2.3283
+  2.2974  2.3711  3.3976  2.2292  2.4987  3.1743  0.2406  2.0865  2.8706  2.7058
+  1.9561  2.6158  3.3163  2.0912  2.7296  3.0807  2.1284  0.2880  2.5272  3.0076
+  3.0749  1.9821  2.3122  3.1726  3.0179  2.4317  3.0354  2.3924  0.8089  2.2699
+  2.6471  1.7351  2.6650  2.7746  2.9733  2.6050  2.7034  2.9171  2.0945  0.2424
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 is an orphan
+QM conf 2 is an orphan
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 is an orphan
+QM conf 6 matches FF conf 6
+QM conf 7 matches FF conf 7
+QM conf 8 is an orphan
+QM conf 9 matches FF conf 9
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 is an orphan
+FF conf 2 is an orphan
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 is an orphan
+FF conf 6 matches QM conf 6
+FF conf 7 matches QM conf 7
+FF conf 8 is an orphan
+FF conf 9 matches QM conf 9
+
+QM matches/orphans/conformers    4  6 10 ; FF matches/orphans/conformers    4  6 10
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          6 ; E(QM)     -876932.615310
+Lowest energy FF conformer is          6 ; E(FF)         -26.049068
+Lowest energy matched QM confomers is  6 ; E(QM)     -876932.615310
+Lowest energy matched FF conformer is  6 ; E(FF)         -26.049068
+QM reference energy from conformer     6 ; E(QM)     -876932.615310
+FF reference energy from conformer     6 ; E(FF)         -26.049068
+
+Relative energy ordered by dE(QM)
+00003  BRI-00226 QM Conf 7 dE(QM)      8.042 matches FF Conf 7 dE(FF)      4.830 ddE     -3.212
+00003  BRI-00226 QM Conf 0 dE(QM)      7.441 matches FF Conf 0 dE(FF)      5.309 ddE     -2.132
+00003  BRI-00226 QM Conf 9 dE(QM)      4.480 matches FF Conf 9 dE(FF)      3.584 ddE     -0.896
+00003  BRI-00226 QM Conf 6 dE(QM)      0.000 matches FF Conf 6 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  2 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  2 (|ddE|.le. 2.00)
+Low energy pass score   2  2 99.00
+
+FF conformer  0 is misordered 
+FF conformer  7 is misordered 
+Number of misordered FF conformers:           2
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers         10
+NM Num QM matches             4
+NO Num QM orphans             6
+EO 10*(num orph)/(num conf)   6
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                40
+NL 0-99 score lowE passes    99
+00003  BRI-00226 MD  0 NC 10 NM  4 NO  6 EO  6 PC  0 LQ  0 LF  0 BF  0 MO  0 BE  0 QS  0 FS  0 SC 40 NL 99
+
+Compound    4: BRI-01081
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-01081-00.sdf Energy    -862603.2306
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-01081-01.sdf Energy    -862602.9642
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-01081-02.sdf Energy    -862603.2306
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-01081-03.sdf Energy    -862602.9643
+FF conf  1 icindex  0 File ./MM-geometries/BRI-01081-00.sdf Energy         10.6533
+FF conf  2 icindex  1 File ./MM-geometries/BRI-01081-01.sdf Energy         10.7174
+FF conf  3 icindex  2 File ./MM-geometries/BRI-01081-02.sdf Energy         10.6533
+FF conf  4 icindex  3 File ./MM-geometries/BRI-01081-03.sdf Energy         10.7174
+
+RMSD Matrix 
+  0.9815  2.8080  3.2108  1.6411
+  2.8194  1.0947  2.0583  2.5731
+  3.2107  2.0078  0.9813  3.1677
+  1.5800  2.5732  3.1923  1.0944
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 is an orphan
+QM conf 2 is an orphan
+QM conf 3 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 is an orphan
+FF conf 2 is an orphan
+FF conf 3 is an orphan
+
+QM matches/orphans/conformers    0  4  4 ; FF matches/orphans/conformers    0  4  4
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          2 ; E(QM)     -862603.230600
+Lowest energy FF conformer is          0 ; E(FF)          10.653314
+MD Num missing FF conformers  0
+NC Num QM conformers          4
+NM Num QM matches             0
+NO Num QM orphans             4
+EO 10*(num orph)/(num conf)  10
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   1
+LF 1 of lowest FF is orphan   1
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                 0
+NL 0-99 score lowE passes     0
+00004  BRI-01081 MD  0 NC  4 NM  0 NO  4 EO 10 PC  0 LQ  1 LF  1 BF  0 MO  0 BE  0 QS  0 FS  0 SC  0 NL  0
+
+Compound    5: BRI-00174
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00174-00.sdf Energy    -624371.3384
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00174-01.sdf Energy    -624371.0049
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00174-02.sdf Energy    -624371.0048
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00174-03.sdf Energy    -624370.2628
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00174-04.sdf Energy    -624371.0049
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00174-05.sdf Energy    -624370.5374
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00174-06.sdf Energy    -624371.3383
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-00174-07.sdf Energy    -624371.3383
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-00174-08.sdf Energy    -624371.0049
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00174-00.sdf Energy        -25.4241
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00174-01.sdf Energy        -25.0823
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00174-02.sdf Energy        -25.0823
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00174-03.sdf Energy        -23.5052
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00174-04.sdf Energy        -25.0823
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00174-05.sdf Energy        -23.6561
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00174-06.sdf Energy        -25.4241
+FF conf  8 icindex  7 File ./MM-geometries/BRI-00174-07.sdf Energy        -25.4241
+FF conf  9 icindex  8 File ./MM-geometries/BRI-00174-08.sdf Energy        -25.0823
+
+RMSD Matrix 
+  0.1209  1.0343  2.4253  2.7910  2.4846  2.5656  2.3172  1.9018  1.8897
+  0.9807  0.1258  2.2742  2.6713  2.3588  2.6346  2.3772  2.0922  1.6637
+  2.4106  2.2746  0.1258  1.8818  1.0816  1.8461  0.9939  2.7823  2.5343
+  2.7785  2.6828  1.8752  0.1346  1.8797  1.3506  1.8366  2.4390  2.4108
+  2.4652  2.3587  1.0711  1.8718  0.1258  1.8242  1.4042  2.6671  2.6374
+  2.5512  2.6621  1.8687  1.3571  1.8972  0.1889  1.8349  2.3226  2.3434
+  2.3200  2.3963  1.0494  1.8748  1.4547  1.8694  0.1214  2.7409  2.7205
+  1.9018  2.1021  2.8011  2.4374  2.6853  2.3188  2.7409  0.1213  1.3906
+  1.8729  1.6707  2.5341  2.4030  2.6374  2.3139  2.7012  1.3402  0.1255
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 matches FF conf 1
+QM conf 2 matches FF conf 2
+QM conf 3 matches FF conf 3
+QM conf 4 matches FF conf 4
+QM conf 5 matches FF conf 5
+QM conf 6 matches FF conf 6
+QM conf 7 matches FF conf 7
+QM conf 8 matches FF conf 8
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 matches QM conf 1
+FF conf 2 matches QM conf 2
+FF conf 3 matches QM conf 3
+FF conf 4 matches QM conf 4
+FF conf 5 matches QM conf 5
+FF conf 6 matches QM conf 6
+FF conf 7 matches QM conf 7
+FF conf 8 matches QM conf 8
+
+QM matches/orphans/conformers    9  0  9 ; FF matches/orphans/conformers    9  0  9
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          0 ; E(QM)     -624371.338360
+Lowest energy FF conformer is          0 ; E(FF)         -25.424103
+Lowest energy matched QM confomers is  0 ; E(QM)     -624371.338360
+Lowest energy matched FF conformer is  0 ; E(FF)         -25.424103
+QM reference energy from conformer     0 ; E(QM)     -624371.338360
+FF reference energy from conformer     0 ; E(FF)         -25.424103
+
+Relative energy ordered by dE(QM)
+00005  BRI-00174 QM Conf 3 dE(QM)      1.076 matches FF Conf 3 dE(FF)      1.919 ddE      0.843
+00005  BRI-00174 QM Conf 5 dE(QM)      0.801 matches FF Conf 5 dE(FF)      1.768 ddE      0.967
+00005  BRI-00174 QM Conf 2 dE(QM)      0.334 matches FF Conf 2 dE(FF)      0.342 ddE      0.008
+00005  BRI-00174 QM Conf 4 dE(QM)      0.334 matches FF Conf 4 dE(FF)      0.342 ddE      0.008
+00005  BRI-00174 QM Conf 8 dE(QM)      0.333 matches FF Conf 8 dE(FF)      0.342 ddE      0.008
+00005  BRI-00174 QM Conf 1 dE(QM)      0.333 matches FF Conf 1 dE(FF)      0.342 ddE      0.008
+00005  BRI-00174 QM Conf 7 dE(QM)      0.000 matches FF Conf 7 dE(FF)      0.000 ddE     -0.000
+00005  BRI-00174 QM Conf 6 dE(QM)      0.000 matches FF Conf 6 dE(FF)      0.000 ddE     -0.000
+00005  BRI-00174 QM Conf 0 dE(QM)      0.000 matches FF Conf 0 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  9 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  9 (|ddE|.le. 2.00)
+Low energy pass score   9  9 99.00
+
+FF conformer  8 is misordered 
+FF conformer  2 is misordered 
+Number of misordered FF conformers:           2
+Number of misordered low-engy FF conformers:  2
+MD Num missing FF conformers  0
+NC Num QM conformers          9
+NM Num QM matches             9
+NO Num QM orphans             0
+EO 10*(num orph)/(num conf)   0
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    0
+MO FF strucs our of order     2
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                99
+NL 0-99 score lowE passes    99
+00005  BRI-00174 MD  0 NC  9 NM  9 NO  0 EO  0 PC  0 LQ  0 LF  0 BF  0 MO  2 BE  0 QS  0 FS  0 SC 99 NL 99
+
+Compound    6: BRI-00538
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00538-00.sdf Energy    -646981.2820
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00538-01.sdf Energy    -646981.9687
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00538-02.sdf Energy    -646981.1737
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00538-03.sdf Energy    -646982.3576
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00538-04.sdf Energy    -646982.0909
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00538-05.sdf Energy    -646981.7301
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00538-06.sdf Energy    -646981.4704
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-00538-07.sdf Energy    -646983.5564
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-00538-08.sdf Energy    -646977.5267
+QM conf 10 icindex  9 File ./b3lyp-d3bj_dzvp/BRI-00538-09.sdf Energy    -646977.0641
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00538-00.sdf Energy         16.0707
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00538-01.sdf Energy         14.3533
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00538-02.sdf Energy         14.3203
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00538-03.sdf Energy         16.4509
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00538-04.sdf Energy         17.1458
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00538-05.sdf Energy         18.3232
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00538-06.sdf Energy         16.7556
+FF conf  8 icindex  7 File ./MM-geometries/BRI-00538-07.sdf Energy         17.2894
+FF conf  9 icindex  8 File ./MM-geometries/BRI-00538-08.sdf Energy         23.2370
+FF conf 10 icindex  9 File ./MM-geometries/BRI-00538-09.sdf Energy         23.0584
+
+RMSD Matrix 
+  0.3703  2.5577  2.3812  3.2496  2.5184  2.5591  3.3964  3.1577  1.9516  2.8675
+  2.4484  0.3288  2.4384  2.5567  0.9561  2.2755  2.9544  3.1580  2.1565  2.8231
+  2.5511  2.6908  0.1431  2.6910  2.7769  2.1397  2.7388  2.8105  2.5296  1.9116
+  3.0036  2.0548  2.3823  0.9989  2.1367  2.6255  1.7407  2.5499  2.9300  2.3123
+  2.4786  0.8614  2.5157  2.5737  0.4266  2.4113  3.0723  3.1955  2.1395  2.8253
+  2.6240  2.4003  2.2228  3.0223  2.5702  0.2581  2.8389  3.1712  2.3592  1.9289
+  2.9120  2.4863  2.3423  1.6471  2.6232  2.3839  1.0529  2.8834  2.9848  2.0276
+  3.3687  3.1791  2.8368  2.6019  3.2380  3.2455  2.8300  0.3536  3.1743  2.9132
+  1.8120  2.2561  2.5312  3.0320  2.1940  2.5278  3.4637  3.0110  0.1688  2.4733
+  2.9408  2.9144  1.9146  2.3605  2.9129  1.8442  2.3566  2.9627  2.4510  0.1738
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 matches FF conf 1
+QM conf 2 matches FF conf 2
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 matches FF conf 5
+QM conf 6 is an orphan
+QM conf 7 matches FF conf 7
+QM conf 8 matches FF conf 8
+QM conf 9 matches FF conf 9
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 matches QM conf 1
+FF conf 2 matches QM conf 2
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 matches QM conf 5
+FF conf 6 is an orphan
+FF conf 7 matches QM conf 7
+FF conf 8 matches QM conf 8
+FF conf 9 matches QM conf 9
+
+QM matches/orphans/conformers    7  3 10 ; FF matches/orphans/conformers    7  3 10
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          7 ; E(QM)     -646983.556391
+Lowest energy FF conformer is          2 ; E(FF)          14.320350
+Lowest energy matched QM confomers is  7 ; E(QM)     -646983.556391
+Lowest energy matched FF conformer is  2 ; E(FF)          14.320350
+QM reference energy from conformer     7 ; E(QM)     -646983.556391
+FF reference energy from conformer     7 ; E(FF)          17.289411
+
+Relative energy ordered by dE(QM)
+00006  BRI-00538 QM Conf 9 dE(QM)      6.492 matches FF Conf 9 dE(FF)      5.769 ddE     -0.723
+00006  BRI-00538 QM Conf 8 dE(QM)      6.030 matches FF Conf 8 dE(FF)      5.948 ddE     -0.082
+00006  BRI-00538 QM Conf 2 dE(QM)      2.383 matches FF Conf 2 dE(FF)     -2.969 ddE     -5.352 X 
+00006  BRI-00538 QM Conf 0 dE(QM)      2.274 matches FF Conf 0 dE(FF)     -1.219 ddE     -3.493 X 
+00006  BRI-00538 QM Conf 5 dE(QM)      1.826 matches FF Conf 5 dE(FF)      1.034 ddE     -0.792
+00006  BRI-00538 QM Conf 1 dE(QM)      1.588 matches FF Conf 1 dE(FF)     -2.936 ddE     -4.524 X 
+00006  BRI-00538 QM Conf 7 dE(QM)      0.000 matches FF Conf 7 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  5 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  2 (|ddE|.le. 2.00)
+Low energy pass score   2  5 25.00
+
+FF conformer  8 is misordered 
+FF conformer  9 is misordered 
+FF conformer  5 is misordered 
+FF conformer  7 is misordered 
+FF conformer  0 is misordered 
+FF conformer  2 is misordered 
+Number of misordered FF conformers:           6
+Number of misordered low-engy FF conformers:  4
+MD Num missing FF conformers  0
+NC Num QM conformers         10
+NM Num QM matches             7
+NO Num QM orphans             3
+EO 10*(num orph)/(num conf)   3
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    3
+MO FF strucs our of order     4
+BE Num small dE large ddE     3
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                40
+NL 0-99 score lowE passes    25
+00006  BRI-00538 MD  0 NC 10 NM  7 NO  3 EO  3 PC  0 LQ  0 LF  0 BF  3 MO  4 BE  3 QS  0 FS  0 SC 40 NL 25
+
+Compound    7: BRI-01064
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-01064-00.sdf Energy    -690600.3756
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-01064-01.sdf Energy    -690599.1498
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-01064-02.sdf Energy    -690601.8104
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-01064-03.sdf Energy    -690606.3214
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-01064-04.sdf Energy    -690607.4334
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-01064-05.sdf Energy    -690600.6850
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-01064-06.sdf Energy    -690602.8579
+FF conf  1 icindex  0 File ./MM-geometries/BRI-01064-00.sdf Energy        -13.4164
+FF conf  2 icindex  1 File ./MM-geometries/BRI-01064-01.sdf Energy         -7.1532
+FF conf  3 icindex  2 File ./MM-geometries/BRI-01064-02.sdf Energy        -14.9208
+FF conf  4 icindex  3 File ./MM-geometries/BRI-01064-03.sdf Energy        -15.3313
+FF conf  5 icindex  4 File ./MM-geometries/BRI-01064-04.sdf Energy        -13.9193
+FF conf  6 icindex  5 File ./MM-geometries/BRI-01064-05.sdf Energy         -3.7375
+FF conf  7 icindex  6 File ./MM-geometries/BRI-01064-06.sdf Energy        -17.1160
+
+RMSD Matrix 
+  0.6698  3.1107  2.6512  4.0261  3.3500  3.6086  3.9806
+  2.7512  0.4716  2.3916  3.5712  3.3856  3.7526  3.3955
+  3.3560  3.1110  1.9756  4.7326  3.1450  3.3083  3.9858
+  3.7639  3.6891  4.1412  0.4712  4.3436  3.2437  2.5476
+  3.4307  3.2616  3.3001  4.3301  0.4280  4.2635  4.0773
+  3.6466  3.7443  3.6917  3.1890  4.3357  0.3704  2.8013
+  3.7683  3.5012  3.7760  2.5922  4.3414  2.7432  0.6961
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 is an orphan
+QM conf 2 is an orphan
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 matches FF conf 5
+QM conf 6 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 is an orphan
+FF conf 2 is an orphan
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 matches QM conf 5
+FF conf 6 is an orphan
+
+QM matches/orphans/conformers    1  6  7 ; FF matches/orphans/conformers    1  6  7
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          4 ; E(QM)     -690607.433353
+Lowest energy FF conformer is          6 ; E(FF)         -17.115988
+Lowest energy matched QM confomers is  5 ; E(QM)     -690600.684971
+Lowest energy matched FF conformer is  5 ; E(FF)          -3.737525
+QM reference energy from conformer     5 ; E(QM)     -690600.684971
+FF reference energy from conformer     5 ; E(FF)          -3.737525
+
+Relative energy ordered by dE(QM)
+00007  BRI-01064 QM Conf 5 dE(QM)      0.000 matches FF Conf 5 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  1 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  1 (|ddE|.le. 2.00)
+Low energy pass score   1  1  0.00
+
+Number of misordered FF conformers:           0
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers          7
+NM Num QM matches             1
+NO Num QM orphans             6
+EO 10*(num orph)/(num conf)   8
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   1
+LF 1 of lowest FF is orphan   1
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                14
+NL 0-99 score lowE passes     0
+00007  BRI-01064 MD  0 NC  7 NM  1 NO  6 EO  8 PC  0 LQ  1 LF  1 BF  0 MO  0 BE  0 QS  0 FS  0 SC 14 NL  0
+
+Compound    8: BRI-00386
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00386-00.sdf Energy    -867903.2855
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00386-01.sdf Energy    -867909.5832
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00386-02.sdf Energy    -867905.3852
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00386-03.sdf Energy    -867907.2462
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00386-04.sdf Energy    -867908.0024
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00386-05.sdf Energy    -867907.0887
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00386-06.sdf Energy    -867910.0130
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-00386-07.sdf Energy    -867905.5929
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-00386-08.sdf Energy    -867907.8423
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00386-00.sdf Energy        -21.3865
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00386-01.sdf Energy        -26.4967
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00386-02.sdf Energy        -27.1008
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00386-03.sdf Energy        -26.5891
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00386-04.sdf Energy        -28.8436
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00386-05.sdf Energy        -27.5410
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00386-06.sdf Energy        -30.5774
+FF conf  8 icindex  7 File ./MM-geometries/BRI-00386-07.sdf Energy        -28.5904
+FF conf  9 icindex  8 File ./MM-geometries/BRI-00386-08.sdf Energy        -27.5371
+
+RMSD Matrix 
+  0.8325  2.3393  1.5925  2.5825  1.6389  2.2822  2.4399  1.7394  2.1653
+  2.6454  0.9232  2.2691  2.0859  2.5329  2.1366  2.3378  2.5366  2.9173
+  1.5943  2.1304  0.7551  2.8047  1.0655  1.9847  2.3678  1.0550  1.6944
+  2.4849  1.9154  2.6436  0.7627  2.6662  2.5163  2.1121  2.7233  3.0450
+  1.5606  2.4248  1.4253  2.6158  0.7961  2.4452  2.0513  1.0451  1.8058
+  2.5352  2.0538  2.0100  2.7215  2.2725  0.7291  2.7342  2.2686  1.8629
+  2.1151  2.6620  2.6754  1.9402  2.2992  2.6894  0.6014  2.3933  2.5712
+  1.6884  2.1369  1.0400  2.7568  0.9032  2.1785  2.3652  0.5864  1.8375
+  2.0983  3.0001  2.0736  2.7616  1.9945  2.2360  2.3165  2.0482  0.9127
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 is an orphan
+QM conf 2 is an orphan
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 is an orphan
+QM conf 6 is an orphan
+QM conf 7 is an orphan
+QM conf 8 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 is an orphan
+FF conf 2 is an orphan
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 is an orphan
+FF conf 6 is an orphan
+FF conf 7 is an orphan
+FF conf 8 is an orphan
+
+QM matches/orphans/conformers    0  9  9 ; FF matches/orphans/conformers    0  9  9
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          6 ; E(QM)     -867910.013016
+Lowest energy FF conformer is          6 ; E(FF)         -30.577390
+MD Num missing FF conformers  0
+NC Num QM conformers          9
+NM Num QM matches             0
+NO Num QM orphans             9
+EO 10*(num orph)/(num conf)  10
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   1
+LF 1 of lowest FF is orphan   1
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                 0
+NL 0-99 score lowE passes     0
+00008  BRI-00386 MD  0 NC  9 NM  0 NO  9 EO 10 PC  0 LQ  1 LF  1 BF  0 MO  0 BE  0 QS  0 FS  0 SC  0 NL  0
+
+Compound    9: BRI-00959
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00959-00.sdf Energy   -1027818.4239
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00959-01.sdf Energy   -1027817.2726
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00959-02.sdf Energy   -1027817.2810
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00959-03.sdf Energy   -1027816.5741
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00959-04.sdf Energy   -1027817.2724
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00959-05.sdf Energy   -1027817.8035
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00959-06.sdf Energy   -1027814.3970
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00959-00.sdf Energy         66.6522
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00959-01.sdf Energy         67.5010
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00959-02.sdf Energy         67.1277
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00959-03.sdf Energy         68.1346
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00959-04.sdf Energy         67.1131
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00959-05.sdf Energy         65.9347
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00959-06.sdf Energy         68.7489
+
+RMSD Matrix 
+  0.2159  2.3187  2.9579  2.4966  2.7519  2.9594  2.8678
+  2.1949  0.3368  3.0095  2.0296  2.4559  2.6504  2.3133
+  3.0101  3.0130  0.3617  2.6351  2.1916  1.2672  2.7398
+  2.3603  2.1145  2.6911  0.1418  2.3020  2.7149  2.0430
+  2.7232  2.4568  2.1867  2.1730  0.3378  2.3302  2.9834
+  2.9190  2.6312  1.3213  2.6972  2.3071  0.1234  2.6343
+  3.1370  2.5404  2.7850  2.1555  3.0662  2.5881  0.7606
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 matches FF conf 1
+QM conf 2 matches FF conf 2
+QM conf 3 matches FF conf 3
+QM conf 4 matches FF conf 4
+QM conf 5 matches FF conf 5
+QM conf 6 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 matches QM conf 1
+FF conf 2 matches QM conf 2
+FF conf 3 matches QM conf 3
+FF conf 4 matches QM conf 4
+FF conf 5 matches QM conf 5
+FF conf 6 is an orphan
+
+QM matches/orphans/conformers    6  1  7 ; FF matches/orphans/conformers    6  1  7
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          0 ; E(QM)    -1027818.423877
+Lowest energy FF conformer is          5 ; E(FF)          65.934738
+Lowest energy matched QM confomers is  0 ; E(QM)    -1027818.423877
+Lowest energy matched FF conformer is  5 ; E(FF)          65.934738
+QM reference energy from conformer     0 ; E(QM)    -1027818.423877
+FF reference energy from conformer     0 ; E(FF)          66.652175
+
+Relative energy ordered by dE(QM)
+00009  BRI-00959 QM Conf 3 dE(QM)      1.850 matches FF Conf 3 dE(FF)      1.482 ddE     -0.367
+00009  BRI-00959 QM Conf 4 dE(QM)      1.151 matches FF Conf 4 dE(FF)      0.461 ddE     -0.691
+00009  BRI-00959 QM Conf 1 dE(QM)      1.151 matches FF Conf 1 dE(FF)      0.849 ddE     -0.302
+00009  BRI-00959 QM Conf 2 dE(QM)      1.143 matches FF Conf 2 dE(FF)      0.476 ddE     -0.667
+00009  BRI-00959 QM Conf 5 dE(QM)      0.620 matches FF Conf 5 dE(FF)     -0.717 ddE     -1.338
+00009  BRI-00959 QM Conf 0 dE(QM)      0.000 matches FF Conf 0 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  6 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  6 (|ddE|.le. 2.00)
+Low energy pass score   6  6 99.00
+
+FF conformer  1 is misordered 
+FF conformer  2 is misordered 
+FF conformer  4 is misordered 
+FF conformer  0 is misordered 
+FF conformer  5 is misordered 
+Number of misordered FF conformers:           5
+Number of misordered low-engy FF conformers:  5
+MD Num missing FF conformers  0
+NC Num QM conformers          7
+NM Num QM matches             6
+NO Num QM orphans             1
+EO 10*(num orph)/(num conf)   1
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    1
+MO FF strucs our of order     5
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                85
+NL 0-99 score lowE passes    99
+00009  BRI-00959 MD  0 NC  7 NM  6 NO  1 EO  1 PC  0 LQ  0 LF  0 BF  1 MO  5 BE  0 QS  0 FS  0 SC 85 NL 99
+
+Compound   10: BRI-00528
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00528-00.sdf Energy    -673282.8070
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00528-01.sdf Energy    -673276.4793
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00528-02.sdf Energy    -673274.8476
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00528-03.sdf Energy    -673275.0405
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00528-04.sdf Energy    -673276.2410
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00528-05.sdf Energy    -673275.3099
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-00528-06.sdf Energy    -673281.2368
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-00528-07.sdf Energy    -673276.3442
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-00528-08.sdf Energy    -673280.0532
+QM conf 10 icindex  9 File ./b3lyp-d3bj_dzvp/BRI-00528-09.sdf Energy    -673280.0194
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00528-00.sdf Energy        -76.5337
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00528-01.sdf Energy        -70.7684
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00528-02.sdf Energy        -68.6157
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00528-03.sdf Energy        -71.6372
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00528-04.sdf Energy        -70.7590
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00528-05.sdf Energy        -70.7976
+FF conf  7 icindex  6 File ./MM-geometries/BRI-00528-06.sdf Energy        -75.0398
+FF conf  8 icindex  7 File ./MM-geometries/BRI-00528-07.sdf Energy        -70.8784
+FF conf  9 icindex  8 File ./MM-geometries/BRI-00528-08.sdf Energy        -75.9709
+FF conf 10 icindex  9 File ./MM-geometries/BRI-00528-09.sdf Energy        -73.8978
+
+RMSD Matrix 
+  0.3515  3.3585  2.3987  3.6057  3.4148  2.9614  3.5703  3.1372  3.3197  3.3386
+  3.6435  0.5147  3.3054  2.4590  2.1786  2.4379  2.1564  2.7494  2.2338  2.6643
+  2.4195  3.1954  0.2837  3.4111  2.9563  2.6370  3.2902  2.8314  3.1095  2.8690
+  3.8411  2.3409  3.4012  0.5074  2.3749  2.5544  2.1046  2.6995  2.4138  2.1206
+  3.6215  1.9974  2.7794  2.3382  0.4185  2.7168  2.4555  2.0924  2.6557  2.2206
+  3.9900  2.3870  3.2600  2.2894  2.2183  2.2375  2.1066  2.3246  2.5932  1.9601
+  3.7265  2.1152  3.1797  2.0893  2.3433  2.6214  0.2637  2.5545  2.4788  2.2684
+  3.3717  2.7209  2.7088  2.7768  2.1169  2.7595  2.5636  0.3238  2.0519  2.4429
+  3.4856  2.3366  3.0194  2.4016  2.6856  2.4235  2.5718  2.0910  0.2034  2.2127
+  3.1681  2.6717  2.4910  2.4268  2.5089  1.5944  2.7599  2.4341  2.2845  0.7669
+
+Matches/orphans of the QM conformers
+QM conf 0 matches FF conf 0
+QM conf 1 is an orphan
+QM conf 2 matches FF conf 2
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 is an orphan
+QM conf 6 matches FF conf 6
+QM conf 7 matches FF conf 7
+QM conf 8 matches FF conf 8
+QM conf 9 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 matches QM conf 0
+FF conf 1 is an orphan
+FF conf 2 matches QM conf 2
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 is an orphan
+FF conf 6 matches QM conf 6
+FF conf 7 matches QM conf 7
+FF conf 8 matches QM conf 8
+FF conf 9 is an orphan
+
+QM matches/orphans/conformers    5  5 10 ; FF matches/orphans/conformers    5  5 10
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          0 ; E(QM)     -673282.807026
+Lowest energy FF conformer is          0 ; E(FF)         -76.533675
+Lowest energy matched QM confomers is  0 ; E(QM)     -673282.807026
+Lowest energy matched FF conformer is  0 ; E(FF)         -76.533675
+QM reference energy from conformer     0 ; E(QM)     -673282.807026
+FF reference energy from conformer     0 ; E(FF)         -76.533675
+
+Relative energy ordered by dE(QM)
+00010  BRI-00528 QM Conf 2 dE(QM)      7.959 matches FF Conf 2 dE(FF)      7.918 ddE     -0.041
+00010  BRI-00528 QM Conf 7 dE(QM)      6.463 matches FF Conf 7 dE(FF)      5.655 ddE     -0.808
+00010  BRI-00528 QM Conf 8 dE(QM)      2.754 matches FF Conf 8 dE(FF)      0.563 ddE     -2.191 X 
+00010  BRI-00528 QM Conf 6 dE(QM)      1.570 matches FF Conf 6 dE(FF)      1.494 ddE     -0.076
+00010  BRI-00528 QM Conf 0 dE(QM)      0.000 matches FF Conf 0 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  3 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  2 (|ddE|.le. 2.00)
+Low energy pass score   2  3 50.00
+
+FF conformer  6 is misordered 
+FF conformer  8 is misordered 
+Number of misordered FF conformers:           2
+Number of misordered low-engy FF conformers:  2
+MD Num missing FF conformers  0
+NC Num QM conformers         10
+NM Num QM matches             5
+NO Num QM orphans             5
+EO 10*(num orph)/(num conf)   5
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    0
+MO FF strucs our of order     2
+BE Num small dE large ddE     1
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                40
+NL 0-99 score lowE passes    50
+00010  BRI-00528 MD  0 NC 10 NM  5 NO  5 EO  5 PC  0 LQ  0 LF  0 BF  0 MO  2 BE  1 QS  0 FS  0 SC 40 NL 50
+
+Compound   11: BRI-01347
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-01347-00.sdf Energy    -940138.4862
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-01347-01.sdf Energy    -940139.7457
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-01347-02.sdf Energy    -940139.4550
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-01347-03.sdf Energy    -940139.7300
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-01347-04.sdf Energy    -940137.9242
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-01347-05.sdf Energy    -940139.9281
+QM conf  7 icindex  6 File ./b3lyp-d3bj_dzvp/BRI-01347-06.sdf Energy    -940139.7859
+QM conf  8 icindex  7 File ./b3lyp-d3bj_dzvp/BRI-01347-07.sdf Energy    -940139.1314
+QM conf  9 icindex  8 File ./b3lyp-d3bj_dzvp/BRI-01347-08.sdf Energy    -940141.2826
+QM conf 10 icindex  9 File ./b3lyp-d3bj_dzvp/BRI-01347-09.sdf Energy    -940144.7276
+FF conf  1 icindex  0 File ./MM-geometries/BRI-01347-00.sdf Energy        -19.7873
+FF conf  2 icindex  1 File ./MM-geometries/BRI-01347-01.sdf Energy        -19.5992
+FF conf  3 icindex  2 File ./MM-geometries/BRI-01347-02.sdf Energy        -20.8855
+FF conf  4 icindex  3 File ./MM-geometries/BRI-01347-03.sdf Energy        -19.8788
+FF conf  5 icindex  4 File ./MM-geometries/BRI-01347-04.sdf Energy        -18.5817
+FF conf  6 icindex  5 File ./MM-geometries/BRI-01347-05.sdf Energy        -21.9148
+FF conf  7 icindex  6 File ./MM-geometries/BRI-01347-06.sdf Energy        -20.3504
+FF conf  8 icindex  7 File ./MM-geometries/BRI-01347-07.sdf Energy        -20.5826
+FF conf  9 icindex  8 File ./MM-geometries/BRI-01347-08.sdf Energy        -20.7756
+FF conf 10 icindex  9 File ./MM-geometries/BRI-01347-09.sdf Energy        -25.3046
+
+RMSD Matrix 
+  0.8972  2.6128  2.4802  2.0936  2.6259  1.8806  2.0040  2.7464  3.3322  3.9104
+  2.4209  0.2204  2.0568  2.6264  2.4963  2.5074  2.8906  2.7676  2.4954  3.2162
+  2.2107  2.0155  0.3116  2.8665  2.6056  2.5864  2.8384  2.9215  2.3178  3.3330
+  2.2313  2.4719  2.5997  0.4491  2.4849  2.4640  1.9710  2.1372  3.2912  3.7256
+  2.6454  2.6873  2.4259  2.3987  0.2447  2.4119  2.1441  2.5735  3.3401  4.5839
+  2.0577  2.6078  2.5295  2.2844  2.4652  0.2297  1.8820  3.0239  3.2776  3.9648
+  2.2267  2.9785  2.7086  1.5427  2.1830  1.8664  0.2500  2.8529  3.8125  4.5328
+  2.5835  2.7403  3.0083  2.3644  2.8431  3.2679  3.0943  0.3331  2.9422  3.6022
+  3.1490  2.8901  2.9964  3.9266  3.9606  3.8416  4.3672  3.2420  0.7213  2.1126
+  3.5270  3.1737  3.6071  4.0699  4.6847  4.1070  4.6428  3.7945  2.3820  0.2358
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 matches FF conf 1
+QM conf 2 matches FF conf 2
+QM conf 3 is an orphan
+QM conf 4 matches FF conf 4
+QM conf 5 matches FF conf 5
+QM conf 6 matches FF conf 6
+QM conf 7 matches FF conf 7
+QM conf 8 is an orphan
+QM conf 9 matches FF conf 9
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 matches QM conf 1
+FF conf 2 matches QM conf 2
+FF conf 3 is an orphan
+FF conf 4 matches QM conf 4
+FF conf 5 matches QM conf 5
+FF conf 6 matches QM conf 6
+FF conf 7 matches QM conf 7
+FF conf 8 is an orphan
+FF conf 9 matches QM conf 9
+
+QM matches/orphans/conformers    7  3 10 ; FF matches/orphans/conformers    7  3 10
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          9 ; E(QM)     -940144.727649
+Lowest energy FF conformer is          9 ; E(FF)         -25.304632
+Lowest energy matched QM confomers is  9 ; E(QM)     -940144.727649
+Lowest energy matched FF conformer is  9 ; E(FF)         -25.304632
+QM reference energy from conformer     9 ; E(QM)     -940144.727649
+FF reference energy from conformer     9 ; E(FF)         -25.304632
+
+Relative energy ordered by dE(QM)
+00011  BRI-01347 QM Conf 4 dE(QM)      6.803 matches FF Conf 4 dE(FF)      6.723 ddE     -0.080
+00011  BRI-01347 QM Conf 7 dE(QM)      5.596 matches FF Conf 7 dE(FF)      4.722 ddE     -0.874
+00011  BRI-01347 QM Conf 2 dE(QM)      5.273 matches FF Conf 2 dE(FF)      4.419 ddE     -0.854
+00011  BRI-01347 QM Conf 1 dE(QM)      4.982 matches FF Conf 1 dE(FF)      5.705 ddE      0.724
+00011  BRI-01347 QM Conf 6 dE(QM)      4.942 matches FF Conf 6 dE(FF)      4.954 ddE      0.013
+00011  BRI-01347 QM Conf 5 dE(QM)      4.800 matches FF Conf 5 dE(FF)      3.390 ddE     -1.410
+00011  BRI-01347 QM Conf 9 dE(QM)      0.000 matches FF Conf 9 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  2 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  2 (|ddE|.le. 2.00)
+Low energy pass score   2  2 99.00
+
+FF conformer  1 is misordered 
+FF conformer  6 is misordered 
+FF conformer  7 is misordered 
+FF conformer  2 is misordered 
+Number of misordered FF conformers:           4
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers         10
+NM Num QM matches             7
+NO Num QM orphans             3
+EO 10*(num orph)/(num conf)   3
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   0
+LF 1 of lowest FF is orphan   0
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                70
+NL 0-99 score lowE passes    99
+00011  BRI-01347 MD  0 NC 10 NM  7 NO  3 EO  3 PC  0 LQ  0 LF  0 BF  0 MO  0 BE  0 QS  0 FS  0 SC 70 NL 99
+
+Compound   12: BRI-00505
+QM conf  1 icindex  0 File ./b3lyp-d3bj_dzvp/BRI-00505-00.sdf Energy    -605972.0554
+QM conf  2 icindex  1 File ./b3lyp-d3bj_dzvp/BRI-00505-01.sdf Energy    -605967.5039
+QM conf  3 icindex  2 File ./b3lyp-d3bj_dzvp/BRI-00505-02.sdf Energy    -605969.5273
+QM conf  4 icindex  3 File ./b3lyp-d3bj_dzvp/BRI-00505-03.sdf Energy    -605975.4217
+QM conf  5 icindex  4 File ./b3lyp-d3bj_dzvp/BRI-00505-04.sdf Energy    -605979.2969
+QM conf  6 icindex  5 File ./b3lyp-d3bj_dzvp/BRI-00505-05.sdf Energy    -605972.0359
+FF conf  1 icindex  0 File ./MM-geometries/BRI-00505-00.sdf Energy         -4.9052
+FF conf  2 icindex  1 File ./MM-geometries/BRI-00505-01.sdf Energy         -1.7011
+FF conf  3 icindex  2 File ./MM-geometries/BRI-00505-02.sdf Energy         -3.3657
+FF conf  4 icindex  3 File ./MM-geometries/BRI-00505-03.sdf Energy        -10.7427
+FF conf  5 icindex  4 File ./MM-geometries/BRI-00505-04.sdf Energy        -12.9008
+FF conf  6 icindex  5 File ./MM-geometries/BRI-00505-05.sdf Energy         -5.2940
+
+RMSD Matrix 
+  0.5558  1.7374  2.6644  1.6372  1.1699  2.3042
+  1.6072  0.3725  1.9895  1.2259  2.0137  2.5338
+  2.4365  2.0425  0.3597  2.3593  2.9562  1.8377
+  1.5800  0.9628  2.1545  0.6301  1.7879  2.4867
+  1.1619  1.8376  2.5560  1.8510  0.6071  2.5561
+  2.3746  2.2874  1.6908  2.4401  2.6063  0.5348
+
+Matches/orphans of the QM conformers
+QM conf 0 is an orphan
+QM conf 1 matches FF conf 1
+QM conf 2 matches FF conf 2
+QM conf 3 is an orphan
+QM conf 4 is an orphan
+QM conf 5 is an orphan
+
+Matches/orphans of the FF conformers
+FF conf 0 is an orphan
+FF conf 1 matches QM conf 1
+FF conf 2 matches QM conf 2
+FF conf 3 is an orphan
+FF conf 4 is an orphan
+FF conf 5 is an orphan
+
+QM matches/orphans/conformers    2  4  6 ; FF matches/orphans/conformers    2  4  6
+
+Identifying reference pair and energy
+Lowest energy QM conformer is          4 ; E(QM)     -605979.296886
+Lowest energy FF conformer is          4 ; E(FF)         -12.900808
+Lowest energy matched QM confomers is  2 ; E(QM)     -605969.527292
+Lowest energy matched FF conformer is  2 ; E(FF)          -3.365724
+QM reference energy from conformer     2 ; E(QM)     -605969.527292
+FF reference energy from conformer     2 ; E(FF)          -3.365724
+
+Relative energy ordered by dE(QM)
+00012  BRI-00505 QM Conf 1 dE(QM)      2.023 matches FF Conf 1 dE(FF)      1.665 ddE     -0.359
+00012  BRI-00505 QM Conf 2 dE(QM)      0.000 matches FF Conf 2 dE(FF)      0.000 ddE      0.000
+
+Number low energy conformers  2 (|dE(QM or FF)|.le. 4.00)
+Number passing low engy conf  2 (|ddE|.le. 2.00)
+Low energy pass score   2  2 99.00
+
+Number of misordered FF conformers:           0
+Number of misordered low-engy FF conformers:  0
+MD Num missing FF conformers  0
+NC Num QM conformers          6
+NM Num QM matches             2
+NO Num QM orphans             4
+EO 10*(num orph)/(num conf)   6
+PC Num cases match .ne. p-c   0
+LQ 1 if lowest QM is orphan   1
+LF 1 of lowest FF is orphan   1
+BF Num FF strucs below ref    0
+MO FF strucs our of order     0
+BE Num small dE large ddE     0
+QS Num 2Q:1F matches          0
+FS Num 1Q:2F matches          0
+SC 0-99 score                33
+NL 0-99 score lowE passes    99
+00012  BRI-00505 MD  0 NC  6 NM  2 NO  4 EO  6 PC  0 LQ  1 LF  1 BF  0 MO  0 BE  0 QS  0 FS  0 SC 33 NL 99
+Number of compounds processed:    12
