@@ -3,17 +3,25 @@ Scripts to run Bill Swope's conformer energy analysis
 
 # File manifest
  create_inputs_for_swope_analysis.py - takes in the QM and MM files (both ordered the same, n^{th} molecule in each are the same)
+
  name_map_to_qca_id.json - name map from QCA id to industry benchmark set compound id
 
  computermsd.f - computes the QM x MM RMSD matrix
+
  tfd_matrix_qm_by_mm.py - creates a QM x MM matrix in a format similar to the fortran script which calculates RMSD
+
  computematch.f - computes the fingerprint based on the QM x MM RMSD/TFD matrix for each molecule
+
  computematch.out - compiled executable
+
  computermsd.out - compiled executable
 
  get_mol_with_name.py - utility script to extract a molecule by name
+
  MM-all.sdf - MM optimized conformer geometries in SDF format
+
  qm-all-annotated.sdf - QM reference conformer geometries in SDF format
+
  ./test-data - directory created with the create_inputs_for_swope_analysis.py script
 
 
