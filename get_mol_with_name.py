@@ -1,3 +1,8 @@
+'''
+Pavan Behara, Nov 23
+
+Utility script to extract the molecule by industry name tag from the large file
+'''
 from openeye import oechem
 import click
 

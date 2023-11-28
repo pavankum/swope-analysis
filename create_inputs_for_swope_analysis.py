@@ -1,3 +1,9 @@
+'''
+Pavan Behara, Nov 23
+
+Script to create the inputs for Swope conformer energies analysis
+'''
+
 import json
 from openeye import oechem
 import pathlib

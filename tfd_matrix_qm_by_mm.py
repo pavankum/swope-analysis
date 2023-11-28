@@ -1,3 +1,9 @@
+'''
+Pavan Behara, Nov 23
+
+Script to create the QM x MM matrix of TFDs of conformers in a molecule
+'''
+
 import json
 import os
 from openeye import oechem
