@@ -1,4 +1,4 @@
-with open('qm-all-annotated.sdf','r') as readfile:
+with open('qm-all-annotated-full.sdf','r') as readfile:
     lines = readfile.readlines()
 
     newfile = []

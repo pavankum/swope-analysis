@@ -51,14 +51,16 @@ def minimize_energy(mol,ff):
     return initial_energies,minimized_energies,minimized_molecule
 
 def opt_molecules_parallel(molfile):
-    # print('hi')
-    sage = ForceField('openff-2.1.0.offxml')
-    mol = Molecule('QM_files/'+molfile)
+    if os.path.isfile('MM-geometries/{}'.format(molfile)):
+        pass
+    else:
+        sage = ForceField('openff-2.0.0.offxml')
+        mol = Molecule('b3lyp-d3bj_dzvp/'+molfile,allow_undefined_stereo=True)
 
-    in_e,final_e, final_mol = minimize_energy(mol,sage)
-    # print(in_e,final_e)
-    final_mol.to_file('MM_files_parallel/{}'.format(molfile),file_format = 'sdf')
-    # opt_mol.append(final_mol)
+        in_e,final_e, final_mol = minimize_energy(mol,sage)
+        # print(in_e,final_e)
+        final_mol.to_file('MM-geometries/{}'.format(molfile),file_format = 'sdf')
+        # opt_mol.append(final_mol)
 
 def opt_molecules(mollist):
     print(mollist)
@@ -67,17 +69,17 @@ def opt_molecules(mollist):
         # print(molfile)
         # molname = molfile.split('/')[-1]
         sage = ForceField('openff-2.1.0.offxml')
-        mol = Molecule('QM_files/'+molfile)
+        mol = Molecule('b3lyp-d3bj_dzvp/'+molfile)
 
         in_e,final_e, final_mol = minimize_energy(mol,sage)
         # print(in_e,final_e)
-        final_mol.to_file('MM_files/{}'.format(molfile),file_format = 'sdf')
+        final_mol.to_file('MM-geometries/{}'.format(molfile),file_format = 'sdf')
         opt_mol.append(final_mol)
 
     return opt_mol
 
 if __name__ == '__main__':
-    molfiles = sorted(os.listdir('QM_files'))#.sort()
+    molfiles = sorted(os.listdir('b3lyp-d3bj_dzvp'))#.sort()
     # molfiles = molfiles[:20]
 
     with multiprocessing.Pool(8) as pool:
