@@ -13,6 +13,8 @@ from openff.units.openmm import from_openmm
 import os
 # suppress stereochemistry warnings
 import logging
+from rdkit import Chem
+
 logging.getLogger("openff").setLevel(logging.ERROR)
 
 def minimize_energy(mol,ff):
@@ -56,31 +58,22 @@ def opt_molecules_parallel(molfile):
     else:
         sage = ForceField('openff-2.0.0.offxml')
         mol = Molecule('b3lyp-d3bj_dzvp/'+molfile,allow_undefined_stereo=True)
+        # mol=Molecule('QM_files/'+molfile,allow_undefined_stereo=True)
 
         in_e,final_e, final_mol = minimize_energy(mol,sage)
-        # print(in_e,final_e)
-        final_mol.to_file('MM-geometries/{}'.format(molfile),file_format = 'sdf')
+        # print(final_e[0])
+        # print(final_e[0].value_in_unit(final_e[0].unit))
+        # final_mol.to_file('MM-geometries/{}'.format(molfile),file_format = 'sdf')
+
+        rdkit_final = final_mol.to_rdkit()
+        writer = Chem.SDWriter('openff-2.0.0/{}'.format(molfile))
+        rdkit_final.SetProp('final_energy',str(final_e[0].value_in_unit(final_e[0].unit)))#.value)
+
+        writer.write(rdkit_final)
         # opt_mol.append(final_mol)
 
-def opt_molecules(mollist):
-    print(mollist)
-    opt_mol = []
-    for molfile in mollist:
-        # print(molfile)
-        # molname = molfile.split('/')[-1]
-        sage = ForceField('openff-2.1.0.offxml')
-        mol = Molecule('b3lyp-d3bj_dzvp/'+molfile)
-
-        in_e,final_e, final_mol = minimize_energy(mol,sage)
-        # print(in_e,final_e)
-        final_mol.to_file('MM-geometries/{}'.format(molfile),file_format = 'sdf')
-        opt_mol.append(final_mol)
-
-    return opt_mol
-
 if __name__ == '__main__':
-    molfiles = sorted(os.listdir('b3lyp-d3bj_dzvp'))#.sort()
-    # molfiles = molfiles[:20]
+    molfiles = sorted(os.listdir('b3lyp-d3bj_dzvp'))#[0:1]#.sort()
 
     with multiprocessing.Pool(8) as pool:
         for x in tqdm.tqdm(pool.imap(opt_molecules_parallel, molfiles),desc = 'Optimizing molecules',total=len(molfiles)):
