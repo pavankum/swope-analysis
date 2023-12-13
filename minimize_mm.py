@@ -64,7 +64,7 @@ def opt_molecules_parallel(inputs):
     if os.path.isfile('{}/{}'.format(mmdir,molfile)):
         pass
     else:
-        sage = ForceField(ff_file)
+        sage = ForceField(ff_file,allow_cosmetic_attributes=True)
         mol = Molecule('{}/{}'.format(qmdir,molfile),allow_undefined_stereo=True)
         # mol=Molecule('QM_files/'+molfile,allow_undefined_stereo=True)
 
