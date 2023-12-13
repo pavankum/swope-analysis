@@ -1,5 +1,5 @@
 with open('qm-all-annotated-full.sdf','r') as readfile:
-    lines = readfile.readlines()[:400]
+    lines = readfile.readlines()
 
     newfile = []
     for i,line in enumerate(lines):
